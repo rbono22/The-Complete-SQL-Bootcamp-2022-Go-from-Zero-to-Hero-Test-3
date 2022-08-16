@@ -29,11 +29,11 @@ email VARCHAR(20) UNIQUE,<br>
 phone VARCHAR(20) UNIQUE);
 
 ## Once you've made the tables, insert a student named Mark Watney (student_id=1) who has a phone number of 777-555-1234 and doesn't have an email. He graduates in 2035 and has 5 as a homeroom number.
-Then for inserting the student information: <br>
+To insert the student information: <br>
 
 INSERT INTO students(first_name,last_name, homeroom_number,phone,grad_year)VALUES ('Mark','Watney',5,'7755551234',2035);
 
 ## Then insert a teacher names Jonas Salk (teacher_id = 1) who as a homeroom number of 5 and is from the Biology department. His contact info is: jsalk@school.org and a phone number of 777-555-4321.
-Then for inserting the teacher information:<br>
+To insert the teacher information:<br>
 
 INSERT INTO teachers(first_name,last_name, homeroom_number,department,email,phone)VALUES ('Jonas','Salk',5,'Biology','jsalk@school.org','7755554321');
